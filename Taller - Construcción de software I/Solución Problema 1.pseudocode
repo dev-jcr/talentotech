@@ -6,6 +6,7 @@ definir arreglo VECTORES
 definir entero VECTOR
 definir entero PARES
 
+# Recibir vector
 I=0
 mientras I < 8
     recibir vector I de usuario
@@ -16,6 +17,7 @@ mientras I < 8
             imprimir "Por favor inserte solo números"
             retornar
 
+#Contar valores pares en el vector
 mientras I > 0
     si residuo VECTORES[I] - 1 / 2 =! 0
         I++
@@ -25,6 +27,7 @@ mientras I > 0
         I++
         retornar
 
+#Imprimir resultado
 imprimir "La cantidad de números pares en el vector ingresado es PARES"
 
         
