@@ -21,7 +21,7 @@ mientras i < 8:
 # Contar valores pares en el vector
 mientras I > 0
     si residuo VECTORES[I] - 1 / 2 =! 0
-        I++
+        I--
         retornar
     si no
         PARES++
