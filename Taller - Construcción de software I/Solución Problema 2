@@ -1,0 +1,16 @@
+Problema 2: Revertir el contenido de un vector
+Descripción:
+    • Crea un programa que reciba un vector de 6 números y lo invierta. Es decir, el primer elemento debe pasar a ser el último, el segundo al penúltimo, etc. 
+
+VECTOR={0,1,2,3,4,5}
+TAM_VECTOR=obtener tamaño de VECTOR
+VECTOR_INVERTIDO{0}
+I=TAM_VECTOR-1
+X=0
+mientras TAM_VECTOR > 0
+    VECTOR_INVERTIDO[X]=VECTOR[I]
+    X++
+    I--
+
+IMPRIMIR "Vector invertido: VECTOR_INVERTIDO"
+

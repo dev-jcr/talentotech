@@ -1,3 +1,7 @@
+Problema 1: Contar cuántos números pares hay en un vector
+Descripción:
+    • Crea un programa que reciba un vector de 8 números y cuente cuántos números pares hay en él.
+
 definir arreglo VECTORES
 definir entero VECTOR
 definir entero PARES
@@ -20,5 +24,7 @@ mientras I > 0
         PARES++
         I++
         retornar
+
+imprimir "La cantidad de números pares en el vector ingresado es PARES"
 
         
