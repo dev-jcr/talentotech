@@ -1,0 +1,50 @@
+TALLER DE CONSTRUCCION DE SOFTWARE I
+
+Problema 1: Contar cuántos números pares hay en un vector
+Descripción:
+    • Crea un programa que reciba un vector de 8 números y cuente cuántos números pares hay en él.     
+
+Problema 2: Revertir el contenido de un vector
+Descripción:
+    • Crea un programa que reciba un vector de 6 números y lo invierta. Es decir, el primer elemento debe pasar a ser el último, el segundo al penúltimo, etc. 
+
+Problema 3: Determinar si todos los números en un vector son positivos
+Descripción:
+    • Crea un programa que reciba un vector de 10 números y determine si todos los elementos son positivos. Si encuentra un número negativo, imprima "No todos los elementos son positivos". 
+
+Problema 4: Imprimir los números primos en un vector
+Descripción:
+    • Crea un programa que reciba un vector de 10 números y determine cuáles son primos. Luego, imprime esos números. 
+
+Problema 5: Buscar la posición de un número en un vector
+Descripción:
+    • Crea un programa que reciba un número y un vector de 15 enteros. Luego, busca ese número en el vector. Si lo encuentra, muestra su índice (posición). Si no lo encuentra, imprime "Número no encontrado". 
+
+Problema 6: Contar los números negativos en un vector
+Descripción:
+    • Escribe un programa que reciba un vector de 12 enteros y cuente cuántos números negativos hay en el vector. 
+
+Problema 7: Encontrar los múltiplos del número 2. 
+Descripción:
+    • Imprimir en consola todos los números múltiplos de 2. El ciclo finalizará cuando el último múltiplo sea menor a 4570
+
+Problema 8: serie Fibonacci. 
+Descripción:
+    • Imprimir en consola los primero diez números de la serie Fibonacci.
+
+Problema 9: organizar en forma ascendente los números. 
+Descripción:
+    • Dado 3 números enteros, mostrar en consola los números de forma ascendente, de menor a mayor. Ejemplo Números = 9, 50, 4 Salida = 4, 9, 50.
+
+Problema 10: Hallar el área de figuras geométricas. 
+Descripción:
+    • Realizar un programa en java, en el cual pueda hallar el área de:
+    • a/ área al cuadrado
+    • b/ área del triangulo
+    • c/área rectángulo
+    • d/área circulo
+    • salir
+
+
+
+

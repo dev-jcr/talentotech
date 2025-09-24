@@ -1,0 +1,24 @@
+definir arreglo VECTORES
+definir entero VECTOR
+definir entero PARES
+
+I=0
+mientras I < 8
+    recibir vector I de usuario
+        si VECTOR I es NÚMERO
+            agregar VECTOR a VECTORES
+            I++
+        si no
+            imprimir "Por favor inserte solo números"
+            retornar
+
+mientras I > 0
+    si residuo VECTORES[I] - 1 / 2 =! 0
+        I++
+        retornar
+    si no
+        PARES++
+        I++
+        retornar
+
+        
