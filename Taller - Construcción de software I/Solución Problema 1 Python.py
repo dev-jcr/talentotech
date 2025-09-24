@@ -10,7 +10,8 @@ pares=0
 i=1
 mientras i < 8:
    vector=input(f"Ingrese el valor {i} del vector")
-        si VECTOR I es NÚMERO
+        int(vector)
+        
             agregar VECTOR a VECTORES
             I++
          si no
