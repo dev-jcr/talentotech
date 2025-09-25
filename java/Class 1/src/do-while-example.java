@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Promedio {
     public static void main(String[] args) {
     	
-    	Scanner teclado= new Scanner(ø.in);
+    	Scanner teclado= new Scanner(System.in);
     	int valor;
         do {
             System.out.print("Ingrese un valor entre 0 y 999 (0 finaliza): ")
