@@ -1,10 +1,10 @@
-Problema 3: Determinar si todos los números en un vector son positivos
+Problema 4: Imprimir los números primos en un vector
 Descripción:
-    • Crea un programa que reciba un vector de 10 números y determine si todos los elementos son positivos. Si encuentra un número negativo, imprima "No todos los elementos son positivos". 
+    • Crea un programa que reciba un vector de 10 números y determine cuáles son primos. Luego, imprime esos números. 
 
 arreglo VECTORES
+arreglo PRIMOS
 entero VECTOR
-booleano NEGATIVO
 
 # Recibir vector
 I=1
@@ -17,18 +17,18 @@ mientras I < 10
             imprimir "Por favor inserte solo números"
             retornar
 
-# 
+# Determinar números primos
+DIVISOR=2
 mientras I > 0
-    si VECTORES[I] * -1 < 0
+    si residuo de VECTORES[I] / DIVISOR == 0
         I++
+        PRIMOS[I]
         retornar
     si no
-        NEGATIVO=verdadero
-        detener
+        DIVISOR++
+        retornar
 
 # Imprimir resultado
-si NEGATIVO=falso
-    imprimir "Todos los valores son positivos"
-si no
-    imprimir "No todos los elementos son positivos"
+si TAMAÑO de PRIMOS > 0 
+imprimir "Todos los valores son positivos"
 

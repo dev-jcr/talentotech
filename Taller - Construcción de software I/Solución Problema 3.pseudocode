@@ -2,9 +2,9 @@ Problema 3: Determinar si todos los números en un vector son positivos
 Descripción:
     • Crea un programa que reciba un vector de 10 números y determine si todos los elementos son positivos. Si encuentra un número negativo, imprima "No todos los elementos son positivos". 
 
-arreglo VECTORES
-entero VECTOR
-booleano NEGATIVO
+arreglo VECTORES=[]
+entero VECTOR=0
+booleano NEGATIVO=falso
 
 # Recibir vector
 I=1
@@ -17,10 +17,10 @@ mientras I < 10
             imprimir "Por favor inserte solo números"
             retornar
 
-# 
+# Definir si hay algún número negativo
 mientras I > 0
     si VECTORES[I] * -1 < 0
-        I++
+        I--
         retornar
     si no
         NEGATIVO=verdadero
