@@ -14,7 +14,7 @@ public class Promedio {
         System.out.println("Ingrese su cuarta nota: ");
         nota4=teclado.nextInt();
 
-        prom=(nota1+nota2+nota3)/3;
+        prom=(nota1+nota2+nota3+nota4)/4;
         
         if (prom>=7) {
             System.out.print("Promovido. Excelente");
