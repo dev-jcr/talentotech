@@ -16,6 +16,8 @@ public class execute {
             case  "Rojo":
                 System.out.println("Detenerse");
                 break;
+            default:
+            	System.out.println("Entrada inválida");
         }
     }
 } 
