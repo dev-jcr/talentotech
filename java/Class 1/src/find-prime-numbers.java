@@ -48,6 +48,7 @@ public class PrimeDetectionInt {
             i=1
             System.out.print("Ingrese el valor" + i)
             vector[i]=teclado.nextInt();
+            if (PrimeDetectionInt(vector[i]))
         } while (i<10);
 
         // En desarrollo
