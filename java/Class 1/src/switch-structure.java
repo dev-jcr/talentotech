@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class execute {
     public static void main(String[] args)  {
         Scanner teclado=new Scanner(System.in);
-        String ColorLuz="Rojo";
         System.out.println("Ingrese color: ");
         ColorLuz=teclado.next();
         switch(ColorLuz)    {
