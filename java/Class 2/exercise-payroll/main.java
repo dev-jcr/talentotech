@@ -10,27 +10,30 @@ public class main {
 		Personas persona1;
 		persona1=new Personas();
 		persona1.inicializar();
+		persona1.neto();
+		persona1.salud();
 		persona1.imprimir();
-		persona1.mayoredad();
 		
 		Personas persona2;
 		persona2=new Personas();
 		persona2.inicializar();
+		persona2.neto();
+		persona2.salud();
 		persona2.imprimir();
-		persona2.mayoredad();
 		
 		Personas persona3;
 		persona3=new Personas();
 		persona3.inicializar();
+		persona3.neto();
+		persona3.salud();
 		persona3.imprimir();
-		persona3.mayoredad();
 		
 		Personas persona4;
 		persona4=new Personas();
 		persona4.inicializar();
+		persona4.neto();
+		persona4.salud();
 		persona4.imprimir();
-		persona4.mayoredad();
 	}
 
 }
-

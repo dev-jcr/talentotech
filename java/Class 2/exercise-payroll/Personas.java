@@ -2,31 +2,49 @@ package primero;
 import java.util.Scanner;
 public class Personas {
 	Scanner teclado;
-	String nombre;
-	int edad;
+	String Nombre;
+    String Apellido;
+    String Cargo;
+    int DLaborados;
+    double PagoNeto;
+    int Salario;
+    double Salud;
 
 	// Método inicializar.
 	public void  inicializar() {
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("ingrese Nombre: ");
-		nombre = teclado.nextLine();
-		System.out.println("ingrese edad: ");
-		edad = teclado.nextInt();
+		System.out.println("Ingrese nombre: ");
+		Nombre = teclado.nextLine();
+		System.out.println("Ingrese apellido: ");
+		Apellido = teclado.nextLine();
+        System.out.println("Ingrese Cargo: ");
+        Cargo = teclado.nextLine();
+        System.out.println("Ingrese salario base: ");
+        Salario = teclado.nextInt();
+        System.out.println("Ingrese días laborados: ");
+        DLaborados = teclado.nextInt();
 	}
 	
-	// Método para determinar si es mayor o menor de edad.
-	public void mayoredad() {
-		if (edad >=18 ) {
-			System.out.println("Es mayor de edad ");
-		}else {
-			System.out.println("Es menor de edad");
-		}
+	// Método para determinar deducciones
+	public double salud() {
+        Salud=Salario*0.04;
+        return Salud;
+	}
+	
+	public double neto() {
+        PagoNeto=Salario-Salud;
+        return PagoNeto;
 	}
 	
 	// Método o atributo para imprimir el nombre y la edad. 
 	public void imprimir() {
-		System.out.println("el nombre es: " + nombre);
-		System.out.println("la edad es: " + edad);
+		System.out.println("Empleado: " + Nombre + Apellido);
+		System.out.println("Cargo: " + Cargo);
+        System.out.println("Salario base: " + Salario);
+        System.out.println("Días laborados: " + DLaborados);
+        System.out.println("Deducción de Salud: " + Salud);
+        System.out.println("Pago neto: " + PagoNeto);
+
 	}
 	
 }
