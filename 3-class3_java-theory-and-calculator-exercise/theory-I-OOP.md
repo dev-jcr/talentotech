@@ -1,4 +1,4 @@
-## Programación orientada a objetos:
+## Programación orientada a objetos (Object Oriented Programming OOP):
 
 # Objetos
 Elemento básico que tiene atributos y acciones o métodos.
