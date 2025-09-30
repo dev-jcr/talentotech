@@ -1,0 +1,36 @@
+Ejercicio 1
+Se desea crear un sistema simple para representar animales en un zoológico.
+Crea una clase padre llamada Animal con los atributos:
+nombre (String)
+edad (int)
+Y con un método:
+hacerSonido() → que muestre un mensaje genérico "El animal hace un sonido".
+
+Crea dos clases hijas que hereden de Animal:
+Perro
+Gato
+Cada una debe sobrescribir el método hacerSonido() para que muestre:
+En Perro: "El perro ladra: ¡Guau guau!"
+En Gato: "El gato maúlla: ¡Miau miau!"
+En una clase principal llamada Zoologico, crea un main que:
+Cree un Perro y un Gato.
+Muestre sus nombres, edades y sonidos llamando al método hacerSonido().
+
+Ejercicio 2
+Se desea diseñar un sistema en Java para calcular áreas de figuras geométricas usando herencia.
+Cea una clase abstracta llamada FiguraGeometrica con:
+Un atributo nombre (String).
+Un método abstracto calcularArea() que devuelva un double.
+Un método mostrarNombre() que imprima el nombre de la figura.
+Crea tres clases hijas que hereden de FiguraGeometrica:
+Cuadrado, con el atributo lado (double).
+Rectangulo, con los atributos base y altura (double).
+Circulo, con el atributo radio (double).
+Cada clase debe sobrescribir el método calcularArea() para devolver el área correspondiente:
+
+Cuadrado: lado × lado
+Rectángulo: base × altura
+Círculo: π × radio²
+En una clase principal llamada MainFiguras:
+Crea un Cuadrado, un Rectangulo y un Circulo.
+Muestra el nombre de cada figura y su área llamando a los métodos de la clase padre.
