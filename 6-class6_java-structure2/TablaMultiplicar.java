@@ -1,7 +1,7 @@
 // Clase TablaMultiplicar
   public static void main(String[] args)  {
     // Instancia de objeto
-    TablaMultiplicar Tabla = New TablaMultiplicar;
-    Tabla = cargar.Valor();
+    TablaMultiplicar Tabla = New TablaMultiplicar();
+    Tabla.cargar.Valor();
   }
     
