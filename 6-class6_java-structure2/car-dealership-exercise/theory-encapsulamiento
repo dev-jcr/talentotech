@@ -1,0 +1,7 @@
+Encapsulamiento
+Agrupar los datos (atributos) y los mètodos (comportamientos) relacionados con un objeto dentro de una sola unidad, llamada clase. Además, se controla el acceso a estos datos y métodos, permitiendo únicamente interacciones controladas desde el exterior de la clase. Se manejan cuatro formas: public, private, protected y default.
+public: accessibles desde cualquier parte del programa. No tiene restricciones en su acceso.
+private: accesibles solo dentro de la misma clase. Otros objetos o clases no puede acceder directamente a ellos. Para usar métodos en private es necesario usar getter y setter como intermediarios.
+protected: accesibles dentro del mismo paquete y tambièn por clases derivadas (herencia) fuera del paquete.
+default: nos da la opciòn de no usar u modificador de acceso y al no hacerlo, el elemento tendrà un acceso conocido como degault o acceso por defecto que permite que tanto la propia clase como la clases del mismo paquete accedan a dichos componentes (por ello es importante declarar el paquete a las clases)
+
