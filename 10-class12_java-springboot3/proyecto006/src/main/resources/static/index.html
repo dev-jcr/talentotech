@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chistes App</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Chistes</h1>
+
+    <div id="chistes-container">
+        <table id="chistes-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Texto</th>
+                    <th>Autor</th>
+                    <th>Borra?</th>
+                </tr>
+            </thead>
+            <tbody id="chistes-body"></tbody>
+        </table>
+    </div>
+
+    <form id="chiste-form">
+        <label for="chiste-id">ID:</label>
+        <input type="number" id="chiste-id" name="chiste-id"><br>
+        <label for="chiste-texto">Texto:</label>
+        <input type="text" id="chiste-texto" name="chiste-texto"><br>
+        <label for="chiste-autor">Autor:</label>
+        <input type="text" id="chiste-autor" name="chiste-autor"><br>
+        <button type="submit">Agregar Chiste</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
